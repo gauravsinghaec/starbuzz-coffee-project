@@ -1,0 +1,95 @@
+<style type="text/css">
+	body{
+		
+	}
+	#home{
+			background-color: #DDDDDD;
+	}
+	header#top{
+		background-color: #444444;
+		margin: 0px 10px ;
+	}
+	/*
+	#award{
+		position: absolute;
+		top: 40px;
+		left: 600px;
+	}
+	#coupan{
+		position: fixed;
+		top: 350px;		
+		left: -90px;
+	}
+	*/
+	.HeadSlogan{
+		float: right;
+	}
+	#tablecontent{
+		display: table;
+		border-spacing: 10px;
+	}
+	#tablerow{
+		display: table-row;
+	}
+	section#drinks{
+		background-color: #CCCCCC;
+		display: table-cell;
+		vertical-align: top;
+		padding: 15px;
+	}
+	section#blog, section#main{
+		display: table-cell;
+		background: url(images/background_main.gif) top left ;
+		background-size: 100% 100%;
+		padding: 15px;
+		vertical-align: top;
+	}
+	video{
+		background-color: #111111;
+	}
+	aside{
+		display: table-cell;
+		background: url(images/background_main.gif) bottom right;
+		background-size: 100% 100%;
+		padding: 15px;
+		text-align: center;
+		line-height: 30px;
+	}
+	footer{
+		border-width: thin;
+		border-style: solid;
+		color: #FFFFFF;
+		background-color: #333333;
+		text-align: center;
+		margin: 0px 10px 10px 10px;
+	}
+	.slogan{
+		color: #881111;
+		font-weight: bold;
+	}
+	.goto{
+		background-color: #FFFFFF;
+		text-align: center;
+	}	
+	}
+	a:link{
+		border-bottom: thin dotted #675c47;
+	}
+	a:visited{
+		border-bottom: thin dotted #00FF47;
+	}	
+	nav ul {
+		margin: 10px 10px 0px 10px;
+
+	}
+	nav ul li {
+		display: inline;
+		list-style-type: none;
+	}
+	nav ul li.selected{
+		background-color: #c8b99c;
+	}	
+	nav ul li a:link,ul li a:visited{
+		color: #111111;
+	}
+</style>

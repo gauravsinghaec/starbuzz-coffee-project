@@ -1,0 +1,29 @@
+<style type="text/css">
+	body{
+		
+	}
+	form textarea{
+		width: 400px;
+		height: 50px;	
+	}	
+	#tablecontent{
+		display: table;
+		border-spacing: 10px;
+	}
+	div#tablerow{
+		display: table-row;
+	}
+	div#tablerow p{
+		display: table-cell;
+		vertical-align: top;
+		padding: 5px;
+
+	}
+	div#tablerow p:first-child{
+		text-align: right;
+	}
+	div p.heading{
+		font-weight: bold;
+	}
+
+</style>
